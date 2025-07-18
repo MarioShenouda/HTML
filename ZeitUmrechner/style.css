@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  text-align: center;
+  padding: 2rem;
+}
+h1 {
+  color: #f50404;
+}
+.hder{
+  background: #037ae9;
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.container {
+  background: rgba(17, 226, 6,0.0);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0 10px rgb(251, 248, 248);
+}
+
+.grid {
+  color: whitesmoke;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.clock-gif {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto;
+  max-width: 100%;
+}
+/* Responsive design */
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+    color: black;
+  }
+
+}
+
+body {
+  background-image: url('images/AI7.png');
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat;  
+  height: 50vh;                 
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
